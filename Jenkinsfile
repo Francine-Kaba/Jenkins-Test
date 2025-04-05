@@ -1,7 +1,7 @@
 pipeline {
     agent any
-    tools { nodejs 'node20' }
-    
+    tools { nodejs 'node22' }
+
     stages {
         stage('build') {
             steps {
